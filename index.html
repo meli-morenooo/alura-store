@@ -10,9 +10,31 @@
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/destacados.css" rel="stylesheet" />
     <link href="./assets/css/populares.css" rel="stylesheet" />
+    <link href="./assets/css/menu.css" rel="stylesheet" />
   </head>
   <body class="app">
-    <header class="encabezado"></header>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link activo" href="#">
+                        <i class="fas fa-home"></i>
+                        Inicio
+                    </a>
+
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicaciones
+                    </a>
+
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Juegos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="contenido">
 <!-- ---------------------------Sección destacados--------------------------- -->
@@ -444,7 +466,7 @@
         </section>
     </main>
 
-    <footer class="rodapie">Todos los derechos resevados &copy 2022</footer>
+    <footer class="footer">Todos los derechos resevados &copy 2022</footer>
 
     <script src="./assets/js/fontawesome.all.min.js"></script>
   </body>
